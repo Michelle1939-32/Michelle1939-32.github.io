@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body class="w3-light-grey">
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="webdesign.jpg" alt="Web design background" style="width:100%;height:100%;">
+</div>
+
+
+<div class="w3-container w3-padding-48 w3-center w3-theme-l1">
+    <h1> Week 1 </h1>
+</div>
+      <!-- Blog entry -->
+        <div class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-center">
+            <h3>Project Management</h3>
+            <h5>Make a Website, <span class="w3-opacity">September 03, 2020</span></h5>
+          </div>
+
+          <div class="w3-justify">
+            <p><strong>HTML!</strong> The main point of this project was to create a website to put our work on.</p>
+            <p> In the beginning, you had to create a GitHub account. After that, you had to create a repository in order to store the website data. Next, you open Gitbash and list your computer files (ls), change the directory to your desktop, clone the repository
+              , enter the GitHub file. Once all that is done you must add, push, commit and enter your URL in the browser to check if it says "Hello World" on the page. If it successfully says hello world, you have to choose the template you want to use. After you need to open up a text editor (because I'm on a PC I used Atom) to start typing out your code. When you finish selecting and committing to your template, you can make your edits and customize the website to make it your own.
+            Throughout this whole process, I kept running into error codes. For example, when making my 13 slots for each project, the borders kept repeating, and layering on top of each other created a ton of headings to be misplaced and all bunched up together.
+          At one point I had to delete the file and start all over because Brackets wouldn't let me save my word and commit. Other than that making the website wasn't bad.
+        Enjoy the final product!! </p>
+
+        <h1>Pictures of The Process</h1>
+        <img src="Beginningstagesoftheproject.JPG" alt="Top portion of my website issues" width="350" height="350">
+        <img src="Thetopportionofmywebsite.JPG" alt="Top portion of my website issues" width="350" height="350">
+        <img src="Template.JPG" alt="Template" width="350" height="350">
+        <img src="deletionofdigiwebsite.JPG" alt="Delection of Digi site" width="350" height="350">
+        <img src="Learninghowtocreateslideshow.JPG" alt="learning how to do slideshow" width="350" height="350">
+        <img src="projectonepic.JPG" alt="Project Picture" width="350" height="350">
+
+            <h2 style="text-align:center">Slideshow Gallery</h2>
+
+            <div class="container">
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="Aboutme.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="giraffechange.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="runnningintotroublewithslideshow.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="howtodoimgtag.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="testingouthowtoinsertimages.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="imageresizing.JPG" style="width:100%">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="Aboutme.JPG" style="width:100%" onclick="currentSlide(1)" alt="About Me">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="giraffechange.JPG" style="width:100%" onclick="currentSlide(2)" alt="Test to see if image would work">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="runnningintotroublewithslideshow.JPG" style="width:100%" onclick="currentSlide(3)" alt="Having trouble with slideshow">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="howtodoimgtag.JPG" style="width:100%" onclick="currentSlide(4)" alt="How to insert image">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="testingouthowtoinsertimages.JPG" style="width:100%" onclick="currentSlide(5)" alt="Testing out how to inset image">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="imageresizing.JPG" style="width:100%" onclick="currentSlide(6)" alt="How to change picture size">
+                </div>
+              </div>
+            </div>
+
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+            </script>
+
+</body>
+</html>
